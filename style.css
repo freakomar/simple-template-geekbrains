@@ -1,0 +1,232 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.main-header {
+    width: 100%;
+    /*паддинг нижний из-за ширины стироки в ul должен быть меньше*/
+    padding: 50px 50px 42px 50px;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #445162;
+}
+
+.main-header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.main-header-wrp {
+    width: 458px;
+    /* размеры по макету */
+    float: left;
+}
+
+.main-header-title {
+    display: block;
+    /*маржин тоже меньше, из-за ширины строки в ul*/
+    margin: 0 0 43px 0;
+    font-size: 59px;
+    line-height: 44px;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main-header-list {
+    margin: 0 0 0 0;
+    padding: 0 0 0 36px;
+    list-style: none;
+}
+
+.main-header-list-item {
+    position: relative;
+    font-size: 20px;
+    line-height: 36px;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main-header-list-item:before {
+    content: "";
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 8px;
+    left: -36px;
+    background-image: url(images/check%20icon.png);
+}
+
+.main-header-img {
+    display: block;
+    width: 469px;
+    height: 214px;
+    float: right;
+    background-color: #fff;
+}
+
+.about-product {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about-product-wrp {
+    width: 653px;
+    float: left;
+}
+
+.about-product-title {
+    display: block;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #445161;
+    margin: 0 0 24px 0;
+}
+
+.about-product-p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    margin: 0 0 11px 0;
+}
+
+.about-product-video {
+    display: block;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+.dignity {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dignity-title {
+    width: 100%;
+    display: block;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #445161;
+}
+
+.dignity-item-wrp {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.dignity-item {
+    width: 100%;
+    min-height: 30px;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.dignity-item-title {
+    display: block;
+    outline: none;
+    position: relative;
+}
+
+.dignity-item-title::-webkit-details-marker {
+    display: none;
+}
+
+.dignity-item-title:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+
+.padding-site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.screenshots {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.screenshots-title {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.screenshots-item {
+    width: 48%;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.screenshots-item:nth-child(4),
+.screenshots-item:nth-child(5) {
+    margin: 0;
+}
+
+.screenshots-photo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0 0;
+    background-color: blue;
+}
+
+.screenshots-item-txt {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.screenshots-item-txt h3 {
+    margin: 0 0 20px 0;
+}
+
+.screenshots-item-txt p {
+    margin: 0 0 0 0;
+}
