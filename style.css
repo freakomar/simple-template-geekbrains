@@ -106,6 +106,11 @@
     margin: 0 0 11px 0;
 }
 
+.about-product-p:last-child {
+    margin:0;
+}
+
+
 .about-product-video {
     display: block;
     width: 430px;
@@ -148,6 +153,10 @@
     color: #333333;
 }
 
+.dignity-item:last-child {
+    margin:0;
+}
+
 .dignity-item-title {
     display: block;
     outline: none;
@@ -180,7 +189,6 @@
 
 .screenshots {
     width: 100%;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -190,15 +198,17 @@
 .screenshots-title {
     display: block;
     width: 100%;
-    border: 1px solid black;
     text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #445161;
+    margin: 0 0 35px 0;
 }
 
 .screenshots-item {
-    width: 48%;
-    margin: 0 0 20px 0;
+    width: 50%;
+    margin: 0 0 30px 0;
     box-sizing: border-box;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -211,22 +221,28 @@
 
 .screenshots-photo {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
     margin: 0 20px 0 0;
-    background-color: blue;
 }
 
 .screenshots-item-txt {
-    width: 80%;
+    width: 63%;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 .screenshots-item-txt h3 {
-    margin: 0 0 20px 0;
+    margin: -6px 0 7px 0;
+    color: #445161;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: normal;
 }
 
 .screenshots-item-txt p {
     margin: 0 0 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
 }
