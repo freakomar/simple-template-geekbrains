@@ -246,3 +246,97 @@
     line-height: 1.5;
     color: #333333;
 }
+
+.reviews {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.7;
+    margin: 0 0 35px 0;
+    color: #445161;
+}
+
+.reviews-block {
+    width: 50%;
+    display: flex;
+    margin: 0 0 24px 0;
+}
+
+.reviews-block:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.reviews-block:nth-child(5) {
+    margin-bottom: 0;
+}
+
+.reviews-block-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #445161 url();
+    
+}
+
+.reviews-block-txt {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.29;
+    color: #333333;
+    background-color: #ebebeb;
+    margin: 0 0 0 30px;
+    padding: 16px 20px 16px 13px;
+    width: 75%;
+    position: relative;
+}
+
+.reviews-block-txt span {
+    display: block;
+    font-style: normal;
+    color: #989898;
+    margin: 15px 0 0 0;
+    line-height: 0.7;
+}
+
+.reviews-block-txt:before {
+    content: "";
+    position: absolute;
+    border: 14px solid transparent;
+    border-right: 14px solid #ebebeb;
+    top: 28px;
+    left: -28px;
+}
+
+.buy {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buy-title {
+    display: block;
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.buy-card {
+    border: 1px solid #000;
+    width: 300px;
+}
+
+.buy-card-title {
+    
+}
+
+.buy-card-p {
+    
+}
+
+.buy-card-list {
+    
+}
