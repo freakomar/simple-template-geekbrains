@@ -157,6 +157,14 @@
     margin:0;
 }
 
+details summary::-webkit-details-marker {
+  display: none
+}
+/* Убираем стандартный маркер Firefox */
+details > summary {
+  list-style: none;
+}
+
 .dignity-item-title {
     display: block;
     outline: none;
@@ -382,3 +390,15 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+.buy-button:hover {
+    background-color: #445161;
+    color: #ffffff;
+}
+
+.buy-button:active {
+    background-color: #ffffff;
+    color: #445161;
+}
+
+
