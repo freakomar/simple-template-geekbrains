@@ -163,10 +163,6 @@
     position: relative;
 }
 
-.dignity-item-title::-webkit-details-marker {
-    display: none;
-}
-
 .dignity-item-title:before {
     content: "+";
     display: block;
@@ -317,34 +313,72 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: flex-end;
 }
 
 .buy-title {
     display: block;
-    border: 1px solid #000;
     width: 100%;
+    line-height: 0.75;
     align-self: flex-start;
     text-align: center;
+    margin: 0 0 29px 0;
+    font-size: 30px;
+    color: #445161;
 }
 
 .buy-card {
-    border: 1px solid #000;
+    border: 2px solid;
     width: 300px;
+    background-color: #445161;
+    box-sizing: border-box;
+    border-radius: 1.5%;
 }
 
 .buy-card-title {
+    display: block;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 0.7;
+    text-align: center;
+    width: 100%;
+    padding: 17px 0;
     
 }
 
 .buy-card-p {
-    
+    display: block;
+    font-size: 40px;
+    color: #445161;
+    line-height: 0.75;
+    text-align: center;
+    width: 100%;
+    padding: 18px 0;
+    margin: 0 0 14px 0;
+    background-color: #ffffff;
 }
 
 .buy-card-list {
     list-style-position: inside;
+    margin: 0 0 15px 0;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #ffffff;
 }
 
-.buy-card-list-item {
-    
+.buy-button {
+    display: block;
+    background-color: #ffffff;
+    width: 260px;
+    text-align: center;
+    border-radius: 5px;
+    color: #445161;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    padding: 14px 0;
+    line-height: 0.75;
+    font-size: 14px;
+    font-weight: bold;
 }
