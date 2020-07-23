@@ -336,7 +336,7 @@ details > summary {
 }
 
 .buy-card {
-    border: 2px solid;
+    border: 2px solid #445161;
     width: 300px;
     background-color: #445161;
     box-sizing: border-box;
