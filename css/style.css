@@ -62,7 +62,7 @@
     position: absolute;
     top: 8px;
     left: -36px;
-    background-image: url(images/check%20icon.png);
+    background-image: url(../img/check%20icon.png);
 }
 
 .main-header-img {
@@ -354,7 +354,7 @@ details > summary {
     
 }
 
-.buy-card-p {
+.buy-card-span {
     display: block;
     font-size: 40px;
     color: #445161;
