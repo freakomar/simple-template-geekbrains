@@ -62,7 +62,7 @@
     position: absolute;
     top: 8px;
     left: -36px;
-    background-image: url(images/check%20icon.png);
+    background-image: url(../img/check%20icon.png);
 }
 
 .main-header-img {
@@ -157,14 +157,18 @@
     margin:0;
 }
 
+details summary::-webkit-details-marker {
+  display: none
+}
+/* Убираем стандартный маркер Firefox */
+details > summary {
+  list-style: none;
+}
+
 .dignity-item-title {
     display: block;
     outline: none;
     position: relative;
-}
-
-.dignity-item-title::-webkit-details-marker {
-    display: none;
 }
 
 .dignity-item-title:before {
@@ -246,3 +250,155 @@
     line-height: 1.5;
     color: #333333;
 }
+
+.reviews {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.7;
+    margin: 0 0 35px 0;
+    color: #445161;
+}
+
+.reviews-block {
+    width: 50%;
+    display: flex;
+    margin: 0 0 24px 0;
+}
+
+.reviews-block:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.reviews-block:nth-child(5) {
+    margin-bottom: 0;
+}
+
+.reviews-block-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #445161 url();
+    
+}
+
+.reviews-block-txt {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.29;
+    color: #333333;
+    background-color: #ebebeb;
+    margin: 0 0 0 30px;
+    padding: 16px 20px 16px 13px;
+    width: 75%;
+    position: relative;
+}
+
+.reviews-block-txt span {
+    display: block;
+    font-style: normal;
+    color: #989898;
+    margin: 15px 0 0 0;
+    line-height: 0.7;
+}
+
+.reviews-block-txt:before {
+    content: "";
+    position: absolute;
+    border: 14px solid transparent;
+    border-right: 14px solid #ebebeb;
+    top: 28px;
+    left: -28px;
+}
+
+.buy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.buy-title {
+    display: block;
+    width: 100%;
+    line-height: 0.75;
+    align-self: flex-start;
+    text-align: center;
+    margin: 0 0 29px 0;
+    font-size: 30px;
+    color: #445161;
+}
+
+.buy-card {
+    border: 2px solid #445161;
+    width: 300px;
+    background-color: #445161;
+    box-sizing: border-box;
+    border-radius: 1.5%;
+}
+
+.buy-card-title {
+    display: block;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 0.7;
+    text-align: center;
+    width: 100%;
+    padding: 17px 0;
+    
+}
+
+.buy-card-span {
+    display: block;
+    font-size: 40px;
+    color: #445161;
+    line-height: 0.75;
+    text-align: center;
+    width: 100%;
+    padding: 18px 0;
+    margin: 0 0 14px 0;
+    background-color: #ffffff;
+}
+
+.buy-card-list {
+    list-style-position: inside;
+    margin: 0 0 15px 0;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #ffffff;
+}
+
+.buy-button {
+    display: block;
+    background-color: #ffffff;
+    width: 260px;
+    text-align: center;
+    border-radius: 5px;
+    color: #445161;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    padding: 14px 0;
+    line-height: 0.75;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buy-button:hover {
+    background-color: #445161;
+    color: #ffffff;
+}
+
+.buy-button:active {
+    background-color: #ffffff;
+    color: #445161;
+}
+
+
