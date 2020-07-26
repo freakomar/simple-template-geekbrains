@@ -533,12 +533,17 @@ details > summary {
     background-repeat: no-repeat;
 }
 .callback-social {
+    display: flex;
     margin: 15px 0 0 0;
 }
 
 .social-a {
+    display: block;
+    width: 50px;
+    height: 50px;
     font-size: 60px;
     line-height: 0.75;
+    text-align: center;
     font-family: Socialico;
     letter-spacing: 1.5px;
     color: #ffffff;
@@ -546,7 +551,8 @@ details > summary {
 }
 
 .social-a:hover {
-    color: #556273;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .copyright {
