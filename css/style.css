@@ -359,7 +359,9 @@ details > summary {
     line-height: 0.7;
     text-align: center;
     width: 100%;
-    padding: 17px 0;
+    padding: 17px;
+    box-sizing: border-box;
+    word-break: break-all;
     
 }
 
@@ -370,7 +372,9 @@ details > summary {
     line-height: 0.75;
     text-align: center;
     width: 100%;
-    padding: 18px 0;
+    padding: 18px;
+    box-sizing: border-box;
+    word-break: break-all;
     margin: 0 0 14px 0;
     background-color: #ffffff;
 }
